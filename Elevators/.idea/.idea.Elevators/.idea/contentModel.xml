@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Elevators.-609690545.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\Elevators\Elevators" t="IncludeFlat">
+      <e p="Elevators.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants" t="Include">
+          <e p="ConversionType.cs" t="Include" />
+          <e p="FeeTypes.cs" t="Include" />
+        </e>
+        <e p="Elevators.Core.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="ICurrencyRatesProvider.cs" t="Include" />
+          <e p="ICurrencyRatesStore.cs" t="Include" />
+          <e p="IStockExchange.cs" t="Include" />
+          <e p="ITradeService.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Balance.cs" t="Include" />
+          <e p="ConversionInfo.cs" t="Include" />
+          <e p="CurrencyPair.cs" t="Include" />
+          <e p="CurrencyRateInfo.cs" t="Include" />
+          <e p="DealFee.cs" t="Include" />
+          <e p="ExchangeInfo.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="StockExchangeInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Elevators.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Elevators.Hosting" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="IndexController.cs" t="Include" />
+        </e>
+        <e p="Elevators.Hosting.csproj" t="IncludeRecursive" />
+        <e p="Logs" t="Include">
+          <e p="log-20200119.txt" t="Include" />
+          <e p="log-20200122.txt" t="Include" />
+          <e p="log-20200212.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Elevators.Hosting.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Elevators.Infrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Elevators.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Logging" t="Include">
+          <e p="LoggingExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Elevators.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Elevators.Providers.Exmo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configuration" t="Include">
+          <e p="ExmoConfig.cs" t="Include" />
+        </e>
+        <e p="Constants" t="Include">
+          <e p="ExmoOrderTypes.cs" t="Include" />
+        </e>
+        <e p="Elevators.Providers.Exmo.csproj" t="IncludeRecursive" />
+        <e p="ExmoApi.cs" t="Include" />
+        <e p="ExmoClient.cs" t="Include" />
+        <e p="ExmoStockExchange.cs" t="Include" />
+        <e p="Extensions" t="Include">
+          <e p="ExmoApiExtensions.cs" t="Include" />
+          <e p="ServicesExtensions.cs" t="Include" />
+        </e>
+        <e p="Mappers" t="Include">
+          <e p="In" t="Include">
+            <e p="CreateBuyOrderModelMapper.cs" t="Include" />
+          </e>
+          <e p="Out" t="Include">
+            <e p="ExmoCurrencyPairInfoMapper.cs" t="Include" />
+            <e p="ExmoExchangeInfoMapper.cs" t="Include" />
+            <e p="ExmoTradeInfoMapper.cs" t="Include" />
+            <e p="ExmoUserInfoMapper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Messages" t="Include">
+          <e p="ExmoCreateBuyOrderMessage.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ExmoCurrencyPairInfo.cs" t="Include" />
+          <e p="ExmoExchangeInfo.cs" t="Include" />
+          <e p="ExmoTradeInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Elevators.Providers.Exmo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Responses" t="Include">
+          <e p="ExmoCreateBuyOrderResponse.cs" t="Include" />
+          <e p="ExmoUserInfoResponse.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="CurrencyHelper.cs" t="Include" />
+          <e p="DecimalConverter.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Elevators.Services" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CurrencyRates" t="Include">
+          <e p="CurrencyRatesStore.cs" t="Include" />
+          <e p="ServiceRegisterExtensions.cs" t="Include" />
+        </e>
+        <e p="Elevators.Services.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Elevators.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Trading" t="Include">
+          <e p="ServiceRegisterExtensions.cs" t="Include" />
+          <e p="TradeService.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="RepeatableTask.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Elevators.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

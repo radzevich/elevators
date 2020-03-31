@@ -1,0 +1,15 @@
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Elevators.Core.deps.json
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Elevators.Core.dll
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Elevators.Core.pdb
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.csprojAssemblyReference.cache
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.AssemblyInfoInputs.cache
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.AssemblyInfo.cs
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.dll
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.pdb
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.0\Elevators.Core.csproj.CopyComplete
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Http.dll
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Http.xml
+D:\Projects\Elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml

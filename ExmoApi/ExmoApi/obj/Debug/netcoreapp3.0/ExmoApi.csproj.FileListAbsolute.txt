@@ -1,0 +1,15 @@
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\ExmoApi.deps.json
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\ExmoApi.dll
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\ExmoApi.pdb
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.csprojAssemblyReference.cache
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.AssemblyInfoInputs.cache
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.AssemblyInfo.cs
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.dll
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.pdb
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Http.dll
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Http.xml
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projects\Elevators\ExmoApi\ExmoApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projects\Elevators\ExmoApi\ExmoApi\obj\Debug\netcoreapp3.0\ExmoApi.csproj.CopyComplete

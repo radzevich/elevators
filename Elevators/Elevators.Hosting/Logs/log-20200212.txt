@@ -1,0 +1,756 @@
+2020-02-12T20:39:38.7457589+03:00 0HLTFSA47U3J0:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T20:39:38.8231595+03:00 0HLTFSA47U3J0:00000001 [INF] Request finished in 99.8156ms 404  (791a596a)
+2020-02-12T21:53:18.3251290+03:00 0HLTFTJ9DJLHK:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T21:53:18.3649672+03:00 0HLTFTJ9DJLHK:00000001 [INF] Request finished in 55.511700000000005ms 404  (791a596a)
+2020-02-12T21:53:28.3172531+03:00 0HLTFTJ9DJLHK:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T21:53:28.3245472+03:00 0HLTFTJ9DJLHK:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T21:53:28.3554123+03:00 0HLTFTJ9DJLHK:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T21:53:28.3716227+03:00 0HLTFTJ9DJLHK:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T21:53:28.3793732+03:00 0HLTFTJ9DJLHK:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 16.2879ms (afa2e885)
+2020-02-12T21:53:28.3810527+03:00 0HLTFTJ9DJLHK:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T21:53:28.3838956+03:00 0HLTFTJ9DJLHK:00000003 [INF] Request finished in 67.4317ms 200  (791a596a)
+2020-02-12T21:53:28.3924845+03:00 0HLTFTJ9DJLHK:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T21:53:28.3962311+03:00 0HLTFTJ9DJLHK:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T21:53:28.5655182+03:00 0HLTFTJ9DJLHK:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico   (ca22a1cb)
+2020-02-12T21:53:28.5673839+03:00 0HLTFTJ9DJLHK:00000005 [INF] Request finished in 1.8135000000000001ms 404  (791a596a)
+2020-02-12T21:53:28.7925734+03:00 0HLTFTJ9DJLHK:00000003 [INF] Received HTTP response after 392.96180000000004ms - OK (6350df9e)
+2020-02-12T21:53:28.7957650+03:00 0HLTFTJ9DJLHK:00000003 [INF] End processing HTTP request after 408.91220000000004ms - OK (7656b38e)
+2020-02-12T21:53:28.9915219+03:00 0HLTFTJ9DJLHK:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T21:53:29.0000637+03:00 0HLTFTJ9DJLHK:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:02:13.3350550+03:00 0HLTFTO8S9DRF:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:02:13.3775742+03:00 0HLTFTO8S9DRF:00000001 [INF] Request finished in 56.086600000000004ms 404  (791a596a)
+2020-02-12T22:02:18.0217920+03:00 0HLTFTO8S9DRF:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:02:18.0284390+03:00 0HLTFTO8S9DRF:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:02:18.0588021+03:00 0HLTFTO8S9DRF:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:02:18.0722528+03:00 0HLTFTO8S9DRF:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:02:18.0778800+03:00 0HLTFTO8S9DRF:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 13.380700000000001ms (afa2e885)
+2020-02-12T22:02:18.0796764+03:00 0HLTFTO8S9DRF:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:02:18.0824044+03:00 0HLTFTO8S9DRF:00000003 [INF] Request finished in 60.8937ms 200  (791a596a)
+2020-02-12T22:02:18.0882250+03:00 0HLTFTO8S9DRF:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:02:18.0911353+03:00 0HLTFTO8S9DRF:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:02:18.4070027+03:00 0HLTFTO8S9DRF:00000003 [INF] Received HTTP response after 313.6949ms - OK (6350df9e)
+2020-02-12T22:02:18.4089145+03:00 0HLTFTO8S9DRF:00000003 [INF] End processing HTTP request after 330.019ms - OK (7656b38e)
+2020-02-12T22:03:10.6518138+03:00 0HLTFTOPV2S88:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:03:10.6943530+03:00 0HLTFTOPV2S88:00000001 [INF] Request finished in 52.671800000000005ms 404  (791a596a)
+2020-02-12T22:03:15.7702686+03:00 0HLTFTOPV2S88:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:03:15.7776319+03:00 0HLTFTOPV2S88:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:03:15.8067523+03:00 0HLTFTOPV2S88:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:03:17.8801959+03:00 0HLTFTOPV2S88:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:03:17.8928143+03:00 0HLTFTOPV2S88:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 2073.8695000000002ms (afa2e885)
+2020-02-12T22:03:17.8954709+03:00 0HLTFTOPV2S88:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:03:17.9007936+03:00 0HLTFTOPV2S88:00000003 [INF] Request finished in 2131.1935000000003ms 200  (791a596a)
+2020-02-12T22:03:17.9064298+03:00 0HLTFTOPV2S88:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:03:17.9093927+03:00 0HLTFTOPV2S88:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:03:18.2422328+03:00 0HLTFTOPV2S88:00000003 [INF] Received HTTP response after 329.9737ms - OK (6350df9e)
+2020-02-12T22:03:18.2442359+03:00 0HLTFTOPV2S88:00000003 [INF] End processing HTTP request after 351.4492ms - OK (7656b38e)
+2020-02-12T22:05:44.5787228+03:00 0HLTFTQ7QJOG4:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:05:44.6444222+03:00 0HLTFTQ7QJOG4:00000001 [INF] Request finished in 81.48780000000001ms 404  (791a596a)
+2020-02-12T22:05:48.5060570+03:00 0HLTFTQ7QJOG4:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:05:48.5134795+03:00 0HLTFTQ7QJOG4:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:05:48.5409263+03:00 0HLTFTQ7QJOG4:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:05:55.6495763+03:00 0HLTFTQ7QJOG4:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:05:55.6560276+03:00 0HLTFTQ7QJOG4:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 7108.6597ms (afa2e885)
+2020-02-12T22:05:55.6576332+03:00 0HLTFTQ7QJOG4:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:05:55.6619762+03:00 0HLTFTQ7QJOG4:00000003 [INF] Request finished in 7156.1592ms 200  (791a596a)
+2020-02-12T22:05:55.6670427+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:05:55.6698229+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:05:56.0516077+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 378.45770000000005ms - OK (6350df9e)
+2020-02-12T22:05:56.0540546+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 396.50100000000003ms - OK (7656b38e)
+2020-02-12T22:05:56.0773155+03:00 0HLTFTQ7QJOG4:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:06:12.4310317+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:06:12.4353388+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:06:12.5636063+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 129.8211ms - OK (6350df9e)
+2020-02-12T22:06:12.5648526+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 139.1567ms - OK (7656b38e)
+2020-02-12T22:06:12.5672850+03:00 0HLTFTQ7QJOG4:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:06:22.5867741+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:06:22.5938406+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:06:22.6881107+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 98.52080000000001ms - OK (6350df9e)
+2020-02-12T22:06:22.6897440+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 109.2252ms - OK (7656b38e)
+2020-02-12T22:06:22.6928717+03:00 0HLTFTQ7QJOG4:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:06:32.7091634+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:06:32.7167250+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:06:32.8502050+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 133.52110000000002ms - OK (6350df9e)
+2020-02-12T22:06:32.8569957+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 148.2422ms - OK (7656b38e)
+2020-02-12T22:06:32.8697208+03:00 0HLTFTQ7QJOG4:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:06:42.8828931+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:06:42.8864427+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:06:42.9847762+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 95.5831ms - OK (6350df9e)
+2020-02-12T22:06:42.9920052+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 106.85820000000001ms - OK (7656b38e)
+2020-02-12T22:06:43.0045486+03:00 0HLTFTQ7QJOG4:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:06:53.0239680+03:00 0HLTFTQ7QJOG4:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:06:53.0315048+03:00 0HLTFTQ7QJOG4:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:06:53.1225389+03:00 0HLTFTQ7QJOG4:00000003 [INF] Received HTTP response after 95.8314ms - OK (6350df9e)
+2020-02-12T22:06:53.1238702+03:00 0HLTFTQ7QJOG4:00000003 [INF] End processing HTTP request after 105.4884ms - OK (7656b38e)
+2020-02-12T22:07:30.5785027+03:00 0HLTFTR7E1MKH:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:07:30.6404711+03:00 0HLTFTR7E1MKH:00000001 [INF] Request finished in 52.683ms 404  (791a596a)
+2020-02-12T22:07:34.2778812+03:00 0HLTFTR7E1MKH:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:07:34.2855136+03:00 0HLTFTR7E1MKH:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:07:34.3145729+03:00 0HLTFTR7E1MKH:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:07:34.3268144+03:00 0HLTFTR7E1MKH:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:07:34.3319338+03:00 0HLTFTR7E1MKH:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 12.1859ms (afa2e885)
+2020-02-12T22:07:34.3336204+03:00 0HLTFTR7E1MKH:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:07:34.3357603+03:00 0HLTFTR7E1MKH:00000003 [INF] Request finished in 59.1047ms 200  (791a596a)
+2020-02-12T22:07:34.3395040+03:00 0HLTFTR7E1MKH:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:07:34.3424298+03:00 0HLTFTR7E1MKH:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:07:34.7824617+03:00 0HLTFTR7E1MKH:00000003 [INF] Received HTTP response after 436.52770000000004ms - OK (6350df9e)
+2020-02-12T22:07:34.7850457+03:00 0HLTFTR7E1MKH:00000003 [INF] End processing HTTP request after 452.2191ms - OK (7656b38e)
+2020-02-12T22:08:59.9544264+03:00 0HLTFTS220QO8:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:09:00.0047454+03:00 0HLTFTS220QO8:00000001 [INF] Request finished in 64.30030000000001ms 404  (791a596a)
+2020-02-12T22:09:06.6457139+03:00 0HLTFTS220QO8:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:09:06.6534567+03:00 0HLTFTS220QO8:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:09:06.6807949+03:00 0HLTFTS220QO8:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:09:06.6929412+03:00 0HLTFTS220QO8:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:09:06.6980847+03:00 0HLTFTS220QO8:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 12.117ms (afa2e885)
+2020-02-12T22:09:06.6995452+03:00 0HLTFTS220QO8:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:09:06.7018223+03:00 0HLTFTS220QO8:00000003 [INF] Request finished in 56.7443ms 200  (791a596a)
+2020-02-12T22:09:06.7065485+03:00 0HLTFTS220QO8:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:09:06.7088535+03:00 0HLTFTS220QO8:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:09:07.0713281+03:00 0HLTFTS220QO8:00000003 [INF] Received HTTP response after 357.58770000000004ms - OK (6350df9e)
+2020-02-12T22:09:07.0742678+03:00 0HLTFTS220QO8:00000003 [INF] End processing HTTP request after 374.31280000000004ms - OK (7656b38e)
+2020-02-12T22:10:24.8888036+03:00 0HLTFTSRCFSEI:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:10:24.9300609+03:00 0HLTFTSRCFSEI:00000001 [INF] Request finished in 53.0471ms 404  (791a596a)
+2020-02-12T22:10:34.5761481+03:00 0HLTFTSRCFSEI:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:10:34.5839081+03:00 0HLTFTSRCFSEI:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:10:34.6115182+03:00 0HLTFTSRCFSEI:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:10:34.6237372+03:00 0HLTFTSRCFSEI:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:10:34.6301574+03:00 0HLTFTSRCFSEI:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 12.2857ms (afa2e885)
+2020-02-12T22:10:34.6323071+03:00 0HLTFTSRCFSEI:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:10:34.6342881+03:00 0HLTFTSRCFSEI:00000003 [INF] Request finished in 58.9459ms 200  (791a596a)
+2020-02-12T22:10:34.6405168+03:00 0HLTFTSRCFSEI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:10:34.6429035+03:00 0HLTFTSRCFSEI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:10:35.0411479+03:00 0HLTFTSRCFSEI:00000003 [INF] Received HTTP response after 393.4551ms - OK (6350df9e)
+2020-02-12T22:10:35.0434323+03:00 0HLTFTSRCFSEI:00000003 [INF] End processing HTTP request after 409.5932ms - OK (7656b38e)
+2020-02-12T22:15:21.0094002+03:00 0HLTFTVJK94SM:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:15:21.0524898+03:00 0HLTFTVJK94SM:00000001 [INF] Request finished in 56.051ms 404  (791a596a)
+2020-02-12T22:15:26.7262620+03:00 0HLTFTVJK94SM:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:15:26.7333222+03:00 0HLTFTVJK94SM:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:15:26.7620967+03:00 0HLTFTVJK94SM:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:15:26.7744872+03:00 0HLTFTVJK94SM:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:15:26.7801708+03:00 0HLTFTVJK94SM:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 12.402000000000001ms (afa2e885)
+2020-02-12T22:15:26.7817802+03:00 0HLTFTVJK94SM:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:15:26.7836804+03:00 0HLTFTVJK94SM:00000003 [INF] Request finished in 58.436ms 200  (791a596a)
+2020-02-12T22:15:26.7876072+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:15:26.7911852+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:15:27.2185949+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 424.0831ms - OK (6350df9e)
+2020-02-12T22:15:27.2210726+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 439.88800000000003ms - OK (7656b38e)
+2020-02-12T22:15:35.3658345+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:15:45.3810177+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:15:45.3889944+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:15:45.5486069+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 159.7546ms - OK (6350df9e)
+2020-02-12T22:15:45.5553712+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 174.7543ms - OK (7656b38e)
+2020-02-12T22:15:45.5716656+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:15:55.5857637+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:15:55.5931260+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:15:55.6981806+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 105.379ms - OK (6350df9e)
+2020-02-12T22:15:55.7050271+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 120.0109ms - OK (7656b38e)
+2020-02-12T22:15:55.7171581+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:05.7247606+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:16:05.7319601+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:16:05.8805716+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 148.799ms - OK (6350df9e)
+2020-02-12T22:16:05.8866713+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 163.1656ms - OK (7656b38e)
+2020-02-12T22:16:05.8987044+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:15.9141454+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:16:15.9215217+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:16:16.0375452+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 116.3491ms - OK (6350df9e)
+2020-02-12T22:16:16.0446563+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 130.9837ms - OK (7656b38e)
+2020-02-12T22:16:16.0574667+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:20.3810353+03:00 0HLTFTVJK94SM:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/pause   (ca22a1cb)
+2020-02-12T22:16:20.3843162+03:00 0HLTFTVJK94SM:00000005 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:16:20.3880774+03:00 0HLTFTVJK94SM:00000005 [INF] Route matched with "{action = \"Pause\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Pause()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:16:20.4490550+03:00 0HLTFTVJK94SM:00000005 [INF] Executing ObjectResult, writing value of type '"System.NullReferenceException"'. (8a1b66c8)
+2020-02-12T22:16:20.4866185+03:00 0HLTFTVJK94SM:00000005 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)" in 96.04270000000001ms (afa2e885)
+2020-02-12T22:16:20.4883943+03:00 0HLTFTVJK94SM:00000005 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:16:20.5239745+03:00 0HLTFTVJK94SM:00000005 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Text.Json.JsonException: A possible object cycle was detected which is not supported. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-12T22:16:20.5627989+03:00 0HLTFTVJK94SM:00000005 [INF] Request finished in 183.3184ms 500 text/html; charset=utf-8 (791a596a)
+2020-02-12T22:16:26.0764754+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:16:26.0828454+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:16:26.2624771+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 178.4189ms - OK (6350df9e)
+2020-02-12T22:16:26.2688715+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 193.3743ms - OK (7656b38e)
+2020-02-12T22:16:26.2806597+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:29.3501599+03:00 0HLTFTVJK94SM:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/stop   (ca22a1cb)
+2020-02-12T22:16:29.3524329+03:00 0HLTFTVJK94SM:00000007 [INF] Request finished in 19.8492ms 404  (791a596a)
+2020-02-12T22:16:36.2884696+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:16:36.2960723+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:16:36.3930941+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 100.0004ms - OK (6350df9e)
+2020-02-12T22:16:36.3967800+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 112.1529ms - OK (7656b38e)
+2020-02-12T22:16:36.4044386+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:46.4127031+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:16:46.4196979+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:16:46.5995663+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 170.8222ms - OK (6350df9e)
+2020-02-12T22:16:46.6067885+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 193.61440000000002ms - OK (7656b38e)
+2020-02-12T22:16:46.6226832+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:16:46.7819352+03:00 0HLTFTVJK94SM:00000009 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/pause   (ca22a1cb)
+2020-02-12T22:16:46.7846439+03:00 0HLTFTVJK94SM:00000009 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:16:46.7863190+03:00 0HLTFTVJK94SM:00000009 [INF] Route matched with "{action = \"Pause\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Pause()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:17:04.0932969+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:17:04.1023034+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:17:04.1102458+03:00 0HLTFTVJK94SM:00000009 [INF] Executing ObjectResult, writing value of type '"System.NullReferenceException"'. (8a1b66c8)
+2020-02-12T22:17:04.1239273+03:00 0HLTFTVJK94SM:00000009 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)" in 17333.7144ms (afa2e885)
+2020-02-12T22:17:04.1277086+03:00 0HLTFTVJK94SM:00000009 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:17:04.1330275+03:00 0HLTFTVJK94SM:00000009 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Text.Json.JsonException: A possible object cycle was detected which is not supported. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-12T22:17:04.1465865+03:00 0HLTFTVJK94SM:00000009 [INF] Request finished in 17363.6377ms 500 text/html; charset=utf-8 (791a596a)
+2020-02-12T22:17:04.2609065+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 165.2709ms - OK (6350df9e)
+2020-02-12T22:17:04.2626666+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 3967.1354ms - OK (7656b38e)
+2020-02-12T22:17:04.2664491+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:17:07.3645870+03:00 0HLTFTVJK94SM:0000000B [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/pause   (ca22a1cb)
+2020-02-12T22:17:07.3671013+03:00 0HLTFTVJK94SM:0000000B [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:17:07.3707196+03:00 0HLTFTVJK94SM:0000000B [INF] Route matched with "{action = \"Pause\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Pause()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:17:14.6928595+03:00 0HLTFTVJK94SM:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:17:14.7168475+03:00 0HLTFTVJK94SM:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:17:24.8497012+03:00 0HLTFTVJK94SM:00000003 [INF] Received HTTP response after 10142.9307ms - OK (6350df9e)
+2020-02-12T22:17:24.8524556+03:00 0HLTFTVJK94SM:0000000B [INF] Executing ObjectResult, writing value of type '"System.NullReferenceException"'. (8a1b66c8)
+2020-02-12T22:17:24.8547491+03:00 0HLTFTVJK94SM:00000003 [INF] End processing HTTP request after 10412.7435ms - OK (7656b38e)
+2020-02-12T22:17:24.8615527+03:00 0HLTFTVJK94SM:0000000B [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)" in 17486.9715ms (afa2e885)
+2020-02-12T22:17:24.8658067+03:00 0HLTFTVJK94SM:0000000B [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:17:24.8694151+03:00 0HLTFTVJK94SM:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-02-12T22:17:24.8747659+03:00 0HLTFTVJK94SM:0000000B [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Text.Json.JsonException: A possible object cycle was detected which is not supported. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-02-12T22:17:24.8871545+03:00 0HLTFTVJK94SM:0000000B [INF] Request finished in 17522.1379ms 500 text/html; charset=utf-8 (791a596a)
+2020-02-12T22:17:30.8434602+03:00 0HLTFTVJK94SM:0000000D [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/pause   (ca22a1cb)
+2020-02-12T22:17:30.8460784+03:00 0HLTFTVJK94SM:0000000D [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:17:30.8552681+03:00 0HLTFTVJK94SM:0000000D [INF] Route matched with "{action = \"Pause\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Pause()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:25:06.7630963+03:00 0HLTFU52658UQ:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:25:06.8184099+03:00 0HLTFU52658UQ:00000001 [INF] Request finished in 69.7343ms 404  (791a596a)
+2020-02-12T22:25:16.0904134+03:00 0HLTFU52658UQ:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:25:16.1007079+03:00 0HLTFU52658UQ:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:25:16.1346307+03:00 0HLTFU52658UQ:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:25:16.1486508+03:00 0HLTFU52658UQ:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:25:16.1549376+03:00 0HLTFU52658UQ:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 13.9914ms (afa2e885)
+2020-02-12T22:25:16.1564383+03:00 0HLTFU52658UQ:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:25:16.1588764+03:00 0HLTFU52658UQ:00000003 [INF] Request finished in 68.631ms 200  (791a596a)
+2020-02-12T22:25:16.1653169+03:00 0HLTFU52658UQ:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:25:16.1682754+03:00 0HLTFU52658UQ:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:25:16.6204383+03:00 0HLTFU52658UQ:00000003 [INF] Received HTTP response after 448.87800000000004ms - OK (6350df9e)
+2020-02-12T22:25:16.6227838+03:00 0HLTFU52658UQ:00000003 [INF] End processing HTTP request after 466.2511ms - OK (7656b38e)
+2020-02-12T22:27:02.6222914+03:00 0HLTFU64NISFT:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:27:02.6616032+03:00 0HLTFU64NISFT:00000001 [INF] Request finished in 49.5452ms 404  (791a596a)
+2020-02-12T22:27:06.7121857+03:00 0HLTFU64NISFT:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:27:06.7203634+03:00 0HLTFU64NISFT:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:27:06.7464720+03:00 0HLTFU64NISFT:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:27:06.7596897+03:00 0HLTFU64NISFT:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:27:06.7668434+03:00 0HLTFU64NISFT:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 13.196800000000001ms (afa2e885)
+2020-02-12T22:27:06.7685119+03:00 0HLTFU64NISFT:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:27:06.7706600+03:00 0HLTFU64NISFT:00000003 [INF] Request finished in 59.7986ms 200  (791a596a)
+2020-02-12T22:27:06.7749770+03:00 0HLTFU64NISFT:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:27:06.7770822+03:00 0HLTFU64NISFT:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:27:07.1021809+03:00 0HLTFU64NISFT:00000003 [INF] Received HTTP response after 319.0853ms - OK (6350df9e)
+2020-02-12T22:27:07.1046501+03:00 0HLTFU64NISFT:00000003 [INF] End processing HTTP request after 336.6268ms - OK (7656b38e)
+2020-02-12T22:36:28.9292151+03:00 0HLTFUBDFJQ2H:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:36:28.9801389+03:00 0HLTFUBDFJQ2H:00000001 [INF] Request finished in 69.5548ms 404  (791a596a)
+2020-02-12T22:36:34.6330164+03:00 0HLTFUBDFJQ2H:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:36:34.6408756+03:00 0HLTFUBDFJQ2H:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:36:34.6720079+03:00 0HLTFUBDFJQ2H:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:36:40.6258854+03:00 0HLTFUBDFJQ2H:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:36:40.7343318+03:00 0HLTFUBDFJQ2H:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 5954.237300000001ms (afa2e885)
+2020-02-12T22:36:40.7572171+03:00 0HLTFUBDFJQ2H:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:36:40.7614965+03:00 0HLTFUBDFJQ2H:00000003 [INF] Request finished in 6128.734ms 200  (791a596a)
+2020-02-12T22:36:43.8537496+03:00 0HLTFUBDFJQ2H:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:36:43.8559948+03:00 0HLTFUBDFJQ2H:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:36:44.2304475+03:00 0HLTFUBDFJQ2H:00000003 [INF] Received HTTP response after 370.8346ms - OK (6350df9e)
+2020-02-12T22:36:44.2333011+03:00 0HLTFUBDFJQ2H:00000003 [INF] End processing HTTP request after 382.26370000000003ms - OK (7656b38e)
+2020-02-12T22:37:49.8112319+03:00 0HLTFUC5IVG89:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:37:49.8605418+03:00 0HLTFUC5IVG89:00000001 [INF] Request finished in 67.858ms 404  (791a596a)
+2020-02-12T22:37:54.9725593+03:00 0HLTFUC5IVG89:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:37:54.9803849+03:00 0HLTFUC5IVG89:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:37:55.0112404+03:00 0HLTFUC5IVG89:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:38:01.0970586+03:00 0HLTFUC5IVG89:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:38:01.1124013+03:00 0HLTFUC5IVG89:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 6086.1606ms (afa2e885)
+2020-02-12T22:38:01.1157509+03:00 0HLTFUC5IVG89:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:38:01.1210634+03:00 0HLTFUC5IVG89:00000003 [INF] Request finished in 6147.0247ms 200  (791a596a)
+2020-02-12T22:38:01.1330040+03:00 0HLTFUC5IVG89:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:38:01.1382591+03:00 0HLTFUC5IVG89:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:38:01.4695313+03:00 0HLTFUC5IVG89:00000003 [INF] Received HTTP response after 328.81800000000004ms - OK (6350df9e)
+2020-02-12T22:38:01.4714001+03:00 0HLTFUC5IVG89:00000003 [INF] End processing HTTP request after 357.7677ms - OK (7656b38e)
+2020-02-12T22:38:18.2182575+03:00 0HLTFUCE2FL5S:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:38:18.2643601+03:00 0HLTFUCE2FL5S:00000001 [INF] Request finished in 57.767ms 404  (791a596a)
+2020-02-12T22:38:22.3021384+03:00 0HLTFUCE2FL5S:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:38:22.3109039+03:00 0HLTFUCE2FL5S:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:38:22.3415503+03:00 0HLTFUCE2FL5S:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:38:22.3538210+03:00 0HLTFUCE2FL5S:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:38:22.3603805+03:00 0HLTFUCE2FL5S:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 12.3339ms (afa2e885)
+2020-02-12T22:38:22.3621728+03:00 0HLTFUCE2FL5S:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:38:22.3641938+03:00 0HLTFUCE2FL5S:00000003 [INF] Request finished in 62.650200000000005ms 200  (791a596a)
+2020-02-12T22:38:22.3693159+03:00 0HLTFUCE2FL5S:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:38:22.3724337+03:00 0HLTFUCE2FL5S:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:38:22.7256506+03:00 0HLTFUCE2FL5S:00000003 [INF] Received HTTP response after 348.627ms - OK (6350df9e)
+2020-02-12T22:38:22.7283891+03:00 0HLTFUCE2FL5S:00000003 [INF] End processing HTTP request after 366.0355ms - OK (7656b38e)
+2020-02-12T22:42:09.7851928+03:00 0HLTFUEJ290TD:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:42:09.8307350+03:00 0HLTFUEJ290TD:00000001 [INF] Request finished in 59.86ms 404  (791a596a)
+2020-02-12T22:42:13.2050643+03:00 0HLTFUEJ290TD:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:42:13.2132612+03:00 0HLTFUEJ290TD:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:42:13.2460653+03:00 0HLTFUEJ290TD:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:42:13.2587306+03:00 0HLTFUEJ290TD:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:42:13.2668617+03:00 0HLTFUEJ290TD:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 13.0531ms (afa2e885)
+2020-02-12T22:42:13.2690720+03:00 0HLTFUEJ290TD:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:42:13.2724153+03:00 0HLTFUEJ290TD:00000003 [INF] Request finished in 68.2621ms 200  (791a596a)
+2020-02-12T22:42:13.2745240+03:00 0HLTFUEJ290TD:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:42:13.2776531+03:00 0HLTFUEJ290TD:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:42:13.6519851+03:00 0HLTFUEJ290TD:00000003 [INF] Received HTTP response after 366.71770000000004ms - OK (6350df9e)
+2020-02-12T22:42:13.6550926+03:00 0HLTFUEJ290TD:00000003 [INF] End processing HTTP request after 387.5752ms - OK (7656b38e)
+2020-02-12T22:46:31.6885509+03:00 0HLTFUH14BJC4:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T22:46:31.6885509+03:00 0HLTFUH14BJC4:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T22:46:31.7304930+03:00 0HLTFUH14BJC4:00000003 [INF] Request finished in 65.22540000000001ms 404  (791a596a)
+2020-02-12T22:46:31.7313437+03:00 0HLTFUH14BJC4:00000001 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T22:46:31.7822188+03:00 0HLTFUH14BJC4:00000001 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T22:46:31.7971625+03:00 0HLTFUH14BJC4:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T22:46:31.8057789+03:00 0HLTFUH14BJC4:00000001 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 14.870600000000001ms (afa2e885)
+2020-02-12T22:46:31.8079329+03:00 0HLTFUH14BJC4:00000001 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T22:46:31.8164376+03:00 0HLTFUH14BJC4:00000001 [INF] Request finished in 148.6891ms 200  (791a596a)
+2020-02-12T22:46:31.8178790+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:46:31.8210291+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:46:32.1135907+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 287.4012ms - OK (6350df9e)
+2020-02-12T22:46:32.1163798+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 309.46090000000004ms - OK (7656b38e)
+2020-02-12T22:47:47.5142547+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10319.81020845
+Usd -> Btc = 0.0000968695203332390278407095
+Btc -> Usdt = 10315
+Usdt -> Btc = 0.0000965623792971191216486067
+Eth -> Btc = 0.02557
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73200294
+Usd -> Eth = 0.0037821482602118003025718608
+Eth -> Usdt = 264.11
+Usdt -> Eth = 0.0037688401772252425046389814
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.306372549019607843137254902
+Ltc -> Usd = 81.61440073
+Usd -> Ltc = 0.0121951219512195121951219512
+Ltc -> Btc = 0.0079353
+Btc -> Ltc = 125.675505843911021741862511
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (c59348b3)
+2020-02-12T22:47:57.5230492+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:47:57.5310303+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:47:57.7462959+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 215.1124ms - OK (6350df9e)
+2020-02-12T22:47:57.7534253+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 231.3683ms - OK (7656b38e)
+2020-02-12T22:48:01.7230183+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968559587238646302378492
+Btc -> Usdt = 10314.010314
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.025569
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.7320081
+Usd -> Eth = 0.0037821482602118003025718608
+Eth -> Usdt = 263.94
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.306372549019607843137254902
+Ltc -> Usd = 81.62720612
+Usd -> Ltc = 0.0121936349225704182416778442
+Ltc -> Btc = 0.0079193
+Btc -> Ltc = 125.69130216189039718451483157
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (20afef52)
+2020-02-12T22:48:11.7421506+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:48:11.7501096+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:48:11.8395835+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 92.39450000000001ms - OK (6350df9e)
+2020-02-12T22:48:11.8433940+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 105.0082ms - OK (7656b38e)
+2020-02-12T22:48:11.8504517+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968172303688542842592611
+Btc -> Usdt = 10311
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.025568
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73200899
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 263.94
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.3063725499582492339407145648
+Ltc -> Usd = 81.62770652
+Usd -> Ltc = 0.0121906619529440448616359868
+Ltc -> Btc = 0.0079243
+Btc -> Ltc = 125.69130216189039718451483157
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (5ad2b01d)
+2020-02-12T22:48:21.8675461+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:48:21.8745074+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:48:22.1302002+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 254.6669ms - OK (6350df9e)
+2020-02-12T22:48:22.1387915+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 271.5441ms - OK (7656b38e)
+2020-02-12T22:48:22.1537359+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968341057467168396446576
+Btc -> Usdt = 10311
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.025568
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73200959
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 263.94
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.3063725499582492339407145648
+Ltc -> Usd = 81.6281068
+Usd -> Ltc = 0.0121936349225704182416778442
+Ltc -> Btc = 0.0079233
+Btc -> Ltc = 125.69130216189039718451483157
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (4c7dfbc1)
+2020-02-12T22:48:32.1652617+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:48:32.1722757+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:48:32.4462504+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 272.9953ms - OK (6350df9e)
+2020-02-12T22:48:32.4535874+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 287.9775ms - OK (7656b38e)
+2020-02-12T22:48:32.4706752+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968439524341243224554978
+Btc -> Usdt = 10311
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.02557
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73201021
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 263.94
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.3063725499582492339407145648
+Ltc -> Usd = 81.62760641
+Usd -> Ltc = 0.0121936349225704182416778442
+Ltc -> Btc = 0.0079233
+Btc -> Ltc = 125.83364791745312696615074871
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (85621918)
+2020-02-12T22:48:42.4909140+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:48:42.4958317+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:48:42.5963628+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 97.1573ms - OK (6350df9e)
+2020-02-12T22:48:42.6035825+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 112.55340000000001ms - OK (7656b38e)
+2020-02-12T22:48:42.6174053+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968534258993809129016512
+Btc -> Usdt = 10312
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.02556
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73201085
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 263.94
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.3063725499582492339407145648
+Ltc -> Usd = 81.62810654
+Usd -> Ltc = 0.0121906619529440448616359868
+Ltc -> Btc = 0.0079233
+Btc -> Ltc = 125.83364791745312696615074871
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (3e348309)
+2020-02-12T22:48:52.6338803+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:48:52.6413534+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:48:52.7615644+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 120.5608ms - OK (6350df9e)
+2020-02-12T22:48:52.7688669+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 135.5427ms - OK (7656b38e)
+2020-02-12T22:48:52.7848110+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968630888670408810666563
+Btc -> Usdt = 10312
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.02555
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.73201146
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 263.89
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.306372549019607843137254902
+Ltc -> Usd = 81.65
+Usd -> Ltc = 0.0121906619529440448616359868
+Ltc -> Btc = 0.0079233
+Btc -> Ltc = 125.83364791745312696615074871
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (23857c89)
+2020-02-12T22:49:02.7931398+03:00 0HLTFUH14BJC4:00000001 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T22:49:02.8004747+03:00 0HLTFUH14BJC4:00000001 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T22:49:02.9090971+03:00 0HLTFUH14BJC4:00000001 [INF] Received HTTP response after 108.75120000000001ms - OK (6350df9e)
+2020-02-12T22:49:02.9155844+03:00 0HLTFUH14BJC4:00000001 [INF] End processing HTTP request after 123.6961ms - OK (7656b38e)
+2020-02-12T22:49:02.9313316+03:00 0HLTFUH14BJC4:00000001 [INF] Currencies updated:
+Btc -> Usd = 10315.00000001
+Usd -> Btc = 0.0000968726599198088121183823
+Btc -> Usdt = 10312
+Usdt -> Btc = 0.0000965810314855095432021301
+Eth -> Btc = 0.025583
+Btc -> Eth = 39.062515258795022966805846409
+Eth -> Usd = 263.732012
+Usd -> Eth = 0.0037878787878787878787878788
+Eth -> Usdt = 264.19
+Usdt -> Eth = 0.003773584905660377358490566
+Eth -> Ltc = 3.22
+Ltc -> Eth = 0.3063725499582492339407145648
+Ltc -> Usd = 81.65030012
+Usd -> Ltc = 0.0121847203606677226757645912
+Ltc -> Btc = 0.0079343
+Btc -> Ltc = 125.83364791745312696615074871
+Usdt -> Usd = 0.99825434
+Usd -> Usdt = 1
+ (79e04f02)
+2020-02-12T23:57:25.0084248+03:00 0HLTFVOKNCDSI:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-02-12T23:57:25.0503596+03:00 0HLTFVOKNCDSI:00000001 [INF] Request finished in 54.3665ms 404  (791a596a)
+2020-02-12T23:57:44.0232621+03:00 0HLTFVOKNCDSI:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-02-12T23:57:44.0324673+03:00 0HLTFVOKNCDSI:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-02-12T23:57:44.0613342+03:00 0HLTFVOKNCDSI:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-02-12T23:57:44.0734033+03:00 0HLTFVOKNCDSI:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-02-12T23:57:44.0797528+03:00 0HLTFVOKNCDSI:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 11.931000000000001ms (afa2e885)
+2020-02-12T23:57:44.0816790+03:00 0HLTFVOKNCDSI:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-02-12T23:57:44.0837458+03:00 0HLTFVOKNCDSI:00000003 [INF] Request finished in 61.7535ms 200  (791a596a)
+2020-02-12T23:57:44.0882046+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:57:44.0905967+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:57:44.4333110+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 339.01030000000003ms - OK (6350df9e)
+2020-02-12T23:57:44.4356836+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 354.2649ms - OK (7656b38e)
+2020-02-12T23:57:44.4572971+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016867
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026217
+Eth -> Usd = 271.00000153
+Eth -> Usdt = 267.53000015
+Eth -> Ltc = 3.2748183
+Ltc -> Usd = 81.36504553
+Ltc -> Btc = 0.007865
+Usdt -> Usd = 0.99783156
+ (dc418220)
+2020-02-12T23:57:54.4768865+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:57:54.4844908+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:57:54.5853769+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 101.278ms - OK (6350df9e)
+2020-02-12T23:57:54.5922416+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 115.93530000000001ms - OK (7656b38e)
+2020-02-12T23:57:54.6050181+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.02619
+Eth -> Usd = 271.08484877
+Eth -> Usdt = 272.2
+Eth -> Ltc = 3.27481831
+Ltc -> Usd = 81.36474526
+Ltc -> Btc = 0.007867
+Usdt -> Usd = 0.99783156
+ (2bd5766a)
+2020-02-12T23:58:04.6226224+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:04.6298371+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:04.7738312+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 144.2058ms - OK (6350df9e)
+2020-02-12T23:58:04.7804193+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 158.0618ms - OK (7656b38e)
+2020-02-12T23:58:04.7934319+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10366
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026076
+Eth -> Usd = 271.08484937
+Eth -> Usdt = 271.98
+Eth -> Ltc = 3.27771493
+Ltc -> Usd = 81.32317738
+Ltc -> Btc = 0.007867
+Usdt -> Usd = 0.99783156
+ (f59b26b3)
+2020-02-12T23:58:14.8073469+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:14.8101400+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:14.9122839+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 102.2491ms - OK (6350df9e)
+2020-02-12T23:58:14.9141155+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 107.6101ms - OK (7656b38e)
+2020-02-12T23:58:14.9169841+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10366
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026255
+Eth -> Usd = 271.20000029
+Eth -> Usdt = 272.29
+Eth -> Ltc = 3.27771493
+Ltc -> Usd = 81.32337739
+Ltc -> Btc = 0.007871
+Usdt -> Usd = 0.99783156
+ (69f87dd2)
+2020-02-12T23:58:24.9378314+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:24.9446592+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:25.1004677+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 156.2158ms - OK (6350df9e)
+2020-02-12T23:58:25.1069000+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 170.1463ms - OK (7656b38e)
+2020-02-12T23:58:25.1202153+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016964
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.02629
+Eth -> Usd = 271.24375968
+Eth -> Usdt = 272.58
+Eth -> Ltc = 3.27797217
+Ltc -> Usd = 81.32347741
+Ltc -> Btc = 0.007873
+Usdt -> Usd = 0.99783156
+ (e1f7c46f)
+2020-02-12T23:58:35.1323500+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:35.1395773+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:35.2507860+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 110.91980000000001ms - OK (6350df9e)
+2020-02-12T23:58:35.2573717+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 125.04360000000001ms - OK (7656b38e)
+2020-02-12T23:58:35.2701188+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026272
+Eth -> Usd = 271.66000015
+Eth -> Usdt = 267.83000001
+Eth -> Ltc = 3.28159824
+Ltc -> Usd = 81.32367742
+Ltc -> Btc = 0.007875
+Usdt -> Usd = 0.99783156
+ (caf8b736)
+2020-02-12T23:58:45.2827822+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:45.2900028+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:45.4398552+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 149.97050000000002ms - OK (6350df9e)
+2020-02-12T23:58:45.4468852+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 163.7192ms - OK (7656b38e)
+2020-02-12T23:58:45.4620114+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.02626
+Eth -> Usd = 271.66000079
+Eth -> Usdt = 272.3
+Eth -> Ltc = 3.28159824
+Ltc -> Usd = 81.32387744
+Ltc -> Btc = 0.007877
+Usdt -> Usd = 0.99783156
+ (5fb5996e)
+2020-02-12T23:58:55.4717569+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:58:55.4784923+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:58:55.5792770+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 100.3668ms - OK (6350df9e)
+2020-02-12T23:58:55.5849544+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 114.41640000000001ms - OK (7656b38e)
+2020-02-12T23:58:55.5992630+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026286
+Eth -> Usd = 271.66000142
+Eth -> Usdt = 272.59
+Eth -> Ltc = 3.29089303
+Ltc -> Usd = 81.32387744
+Ltc -> Btc = 0.007877
+Usdt -> Usd = 0.99783156
+ (503135c0)
+2020-02-12T23:59:05.6156093+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:59:05.6221188+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:59:05.7655790+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 143.15370000000001ms - OK (6350df9e)
+2020-02-12T23:59:05.7724255+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 156.64530000000002ms - OK (7656b38e)
+2020-02-12T23:59:05.7855094+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026286
+Eth -> Usd = 272.00000007
+Eth -> Usdt = 272.55
+Eth -> Ltc = 3.28925257
+Ltc -> Usd = 81.32387745
+Ltc -> Btc = 0.007879
+Usdt -> Usd = 0.99783156
+ (868cf9ed)
+2020-02-12T23:59:15.8008793+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:59:15.8073305+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:59:15.9056716+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 98.37ms - OK (6350df9e)
+2020-02-12T23:59:15.9123674+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 112.0279ms - OK (7656b38e)
+2020-02-12T23:59:15.9261861+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026291
+Eth -> Usd = 272.00000066
+Eth -> Usdt = 272.55
+Eth -> Ltc = 3.29146799
+Ltc -> Usd = 81.32397745
+Ltc -> Btc = 0.007881
+Usdt -> Usd = 0.99783156
+ (a67ae615)
+2020-02-12T23:59:25.9346600+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:59:25.9415358+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:59:26.0926959+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 150.54600000000002ms - OK (6350df9e)
+2020-02-12T23:59:26.0997715+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 165.2397ms - OK (7656b38e)
+2020-02-12T23:59:26.1135674+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10365.92016866
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026302
+Eth -> Usd = 272.00000132
+Eth -> Usdt = 272.8
+Eth -> Ltc = 3.291468
+Ltc -> Usd = 81.32407746
+Ltc -> Btc = 0.007883
+Usdt -> Usd = 0.99783156
+ (861ac37e)
+2020-02-12T23:59:36.1299171+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:59:36.1347447+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:59:36.2398003+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 108.1131ms - OK (6350df9e)
+2020-02-12T23:59:36.2412018+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 115.9478ms - OK (7656b38e)
+2020-02-12T23:59:36.2444029+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10367.45
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026336
+Eth -> Usd = 272.03358681
+Eth -> Usdt = 273.15
+Eth -> Ltc = 3.291468
+Ltc -> Usd = 81.32427748
+Ltc -> Btc = 0.007885
+Usdt -> Usd = 0.99783156
+ (4d8f7f16)
+2020-02-12T23:59:46.2662460+03:00 0HLTFVOKNCDSI:00000003 [INF] Start processing HTTP request "GET" https://api.exmo.com/v1/ticker/ (338f1c77)
+2020-02-12T23:59:46.2723969+03:00 0HLTFVOKNCDSI:00000003 [INF] Sending HTTP request "GET" https://api.exmo.com/v1/ticker/ (2e7ac211)
+2020-02-12T23:59:46.5089237+03:00 0HLTFVOKNCDSI:00000003 [INF] Received HTTP response after 236.23760000000001ms - OK (6350df9e)
+2020-02-12T23:59:46.5150041+03:00 0HLTFVOKNCDSI:00000003 [INF] End processing HTTP request after 249.0232ms - OK (7656b38e)
+2020-02-12T23:59:46.5284258+03:00 0HLTFVOKNCDSI:00000003 [INF] Currencies updated:
+Btc -> Usd = 10368.48
+Btc -> Usdt = 10357.926342
+Eth -> Btc = 0.026319
+Eth -> Usd = 272.03358748
+Eth -> Usdt = 273
+Eth -> Ltc = 3.29502031
+Ltc -> Usd = 81.32437749
+Ltc -> Btc = 0.007889
+Usdt -> Usd = 0.99783156
+ (92234181)

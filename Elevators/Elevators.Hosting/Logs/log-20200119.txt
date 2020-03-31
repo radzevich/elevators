@@ -1,0 +1,186 @@
+2020-01-19T20:41:09.9761696+03:00  [FTL] Application startup exception (6c57a5ba)
+System.InvalidOperationException: Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'. To use 'IApplicationBuilder.UseMvc' set 'MvcOptions.EnableEndpointRouting = false' inside 'ConfigureServices(...).
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(IApplicationBuilder app, Action`1 configureRoutes)
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(IApplicationBuilder app)
+   at Elevators.Hosting.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\Projects\Elevators\Elevators\Elevators.Hosting\Startup.cs:line 65
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String startupMessage)
+2020-01-19T20:42:29.5172739+03:00  [FTL] Application startup exception (6c57a5ba)
+System.InvalidOperationException: Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'. To use 'IApplicationBuilder.UseMvc' set 'MvcOptions.EnableEndpointRouting = false' inside 'ConfigureServices(...).
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(IApplicationBuilder app, Action`1 configureRoutes)
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(IApplicationBuilder app)
+   at Elevators.Hosting.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\Projects\Elevators\Elevators\Elevators.Hosting\Startup.cs:line 58
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String startupMessage)
+2020-01-19T20:51:28.3180438+03:00 0HLST10QPHDK4:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-01-19T20:51:28.3629242+03:00 0HLST10QPHDK4:00000001 [INF] Request finished in 62.284400000000005ms 404  (791a596a)
+2020-01-19T20:52:02.3691071+03:00 0HLST10QPHDK4:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/v1/start   (ca22a1cb)
+2020-01-19T20:52:02.3728786+03:00 0HLST10QPHDK4:00000003 [INF] Request finished in 4.6162ms 404  (791a596a)
+2020-01-19T20:52:32.7213425+03:00 0HLST10QPHDK4:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-01-19T20:52:32.7338969+03:00 0HLST10QPHDK4:00000005 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-01-19T20:52:32.7925879+03:00 0HLST10QPHDK4:00000005 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-01-19T20:52:32.8118167+03:00 0HLST10QPHDK4:00000005 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 5.2644ms (afa2e885)
+2020-01-19T20:52:32.8163645+03:00 0HLST10QPHDK4:00000005 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-01-19T20:52:32.9004136+03:00 0HLST10QPHDK4:00000005 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Elevators.Hosting.Controllers.IndexController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-19T20:52:32.9907345+03:00 0HLST10QPHDK4:00000005 [INF] Request finished in 269.8578ms 500 text/html; charset=utf-8 (791a596a)
+2020-01-19T20:52:33.5482881+03:00 0HLST10QPHDK4:00000007 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico   (ca22a1cb)
+2020-01-19T20:52:33.5518140+03:00 0HLST10QPHDK4:00000007 [INF] Request finished in 3.0439000000000003ms 404  (791a596a)
+2020-01-19T20:54:25.6368938+03:00 0HLST12FKE92Q:00000001 [INF] Request starting HTTP/2 GET https://localhost:5001/   (ca22a1cb)
+2020-01-19T20:54:25.6909514+03:00 0HLST12FKE92Q:00000001 [INF] Request finished in 77.03110000000001ms 404  (791a596a)
+2020-01-19T20:54:36.6955012+03:00 0HLST12FKE92Q:00000003 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/start   (ca22a1cb)
+2020-01-19T20:54:36.7096484+03:00 0HLST12FKE92Q:00000003 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (500cc934)
+2020-01-19T20:54:36.7695425+03:00 0HLST12FKE92Q:00000003 [INF] Route matched with "{action = \"Start\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Start()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-01-19T20:54:56.8385061+03:00 0HLST12FKE92Q:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-01-19T20:54:56.8646343+03:00 0HLST12FKE92Q:00000003 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)" in 20069.6806ms (afa2e885)
+2020-01-19T20:54:56.8715754+03:00 0HLST12FKE92Q:00000003 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Start (Elevators.Hosting)"' (99874f2b)
+2020-01-19T20:54:56.8807112+03:00 0HLST12FKE92Q:00000003 [INF] Request finished in 20182.3184ms 200  (791a596a)
+2020-01-19T20:54:56.9407797+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:56.9409171+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:56.9408251+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:56.9411676+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:56.9419454+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:57.8216485+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:58.8173635+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:54:59.8187294+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:00.8172725+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:01.8191472+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:02.8241473+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:03.8174914+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:04.8212328+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:05.8244511+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:06.8209194+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:07.8216881+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:08.8222397+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:09.8266747+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:10.8284598+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:11.8243885+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:12.8230097+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:13.8240543+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:14.8247143+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:15.8263241+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:16.8187689+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:17.8242927+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:18.8218978+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:19.8242888+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:20.8210798+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:21.8220569+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:22.8191295+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:23.8214091+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:24.8254640+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:25.8234171+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:26.8209274+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:27.8254055+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:33.8954632+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:33.8924612+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:41.4093474+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:41.4202952+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:41.4264782+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:41.4327061+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:41.4382948+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:42.4162473+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:43.4208831+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:44.4176953+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:45.4253670+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:46.4193511+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:47.4156553+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:48.0230843+03:00 0HLST12FKE92Q:00000005 [INF] Request starting HTTP/2 GET https://localhost:5001/api/index/pause   (ca22a1cb)
+2020-01-19T20:55:48.0283680+03:00 0HLST12FKE92Q:00000005 [INF] Executing endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (500cc934)
+2020-01-19T20:55:48.0338564+03:00 0HLST12FKE92Q:00000005 [INF] Route matched with "{action = \"Pause\", controller = \"Index\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Pause()" on controller "Elevators.Hosting.Controllers.IndexController" ("Elevators.Hosting"). (122b2fdf)
+2020-01-19T20:55:48.0369605+03:00 0HLST12FKE92Q:00000005 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2020-01-19T20:55:48.0398543+03:00 0HLST12FKE92Q:00000005 [INF] Executed action "Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)" in 3.1835ms (afa2e885)
+2020-01-19T20:55:48.0429623+03:00 0HLST12FKE92Q:00000005 [INF] Executed endpoint '"Elevators.Hosting.Controllers.IndexController.Pause (Elevators.Hosting)"' (99874f2b)
+2020-01-19T20:55:48.0453891+03:00 0HLST12FKE92Q:00000005 [INF] Request finished in 23.500400000000003ms 200  (791a596a)
+2020-01-19T20:55:48.4250768+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:49.4255269+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:50.4149642+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:51.4193234+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:54.8063920+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:55.0323153+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:55.0346422+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)
+2020-01-19T20:55:55.5541831+03:00 0HLST12FKE92Q:00000003 [INF] Currencies updated:
+ (7f97ddb9)

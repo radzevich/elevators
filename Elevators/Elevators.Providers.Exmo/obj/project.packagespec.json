@@ -1,0 +1,60 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\Projects\\Elevators\\Elevators\\Elevators.Providers.Exmo\\Elevators.Providers.Exmo.csproj",
+    "projectName": "Elevators.Providers.Exmo",
+    "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Providers.Exmo\\Elevators.Providers.Exmo.csproj",
+    "outputPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Providers.Exmo\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj": {
+            "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj"
+          },
+          "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj": {
+            "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[3.1.3, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

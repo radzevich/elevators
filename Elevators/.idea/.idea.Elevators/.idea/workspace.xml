@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a067b85e-f3e4-4e4a-864c-cd4bff2afbb2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/Trading/ServiceRegisterExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Responses/ExmoCreateBuyOrderResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/a1/a7580c82/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/ITradeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Hosting/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Hosting/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoExchangeInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/CurrencyRateInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoTradeInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Extensions/ExmoApiExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/ICurrencyRatesProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoTradeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB570BDC-5539-4371-82E9-C8012F0D1243/b7/dbffd180/HttpRequestMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01D51B6B-0609-4326-A958-AF197F18D672/fb/564cb69d/OptionsConfigurationServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/21F5A737-2B97-4DA2-8234-8C23053EBC98/4/AutofacServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/ICurrencyRatesStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E566733-E6C2-4253-BBE9-2F663252FF50/e7/7ba90da4/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABC3C6A-5F60-446E-85DC-B527C15E1A99/71/04a33658/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/StockExchangeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Constants/ExmoOrderTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F4416C-898D-4917-8884-7A19EB315723/13/4ed14280/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F4416C-898D-4917-8884-7A19EB315723/3f/3c5c9a8a/WebHost.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Infrastructure/Logging/LoggingExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/Utilities/RepeatableTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/IStockExchange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F4416C-898D-4917-8884-7A19EB315723/d2/72810c96/ConventionBasedStartup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F4416C-898D-4917-8884-7A19EB315723/e9/55eb58c1/StartupLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51F4416C-898D-4917-8884-7A19EB315723/b1/15109aab/ConfigureServicesBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/ExchangeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/In/CreateBuyOrderModelMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E566733-E6C2-4253-BBE9-2F663252FF50/9c/e1651933/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Messages/ExmoCreateBuyOrderMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoExchangeInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Configuration/ExmoConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Extensions/ServicesExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoStockExchange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/CurrencyRates/ServiceRegisterExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/CurrencyRates/CurrencyRatesStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Utilities/DecimalConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoUserInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/Balance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Hosting/Controllers/IndexController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Utilities/CurrencyHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/ConversionInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E566733-E6C2-4253-BBE9-2F663252FF50/16/6fb4f76d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Constants/FeeTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F96F694-DCB9-40E0-8F49-F304D01ACF66/b1/8a1adc81/LargeArrayBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Constants/ConversionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoCurrencyPairInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoCurrencyPairInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A8A15F63-7FCB-4C7A-9C6E-A7ECBB09FC46/97/d9265056/Parallel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Responses/ExmoUserInfoResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAE80100-3870-49CA-A23B-BC47EEC50282/b4/513c0c17/Timer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/a7/cccb253b/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/DealFee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB570BDC-5539-4371-82E9-C8012F0D1243/cf/d5f23cfb/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/869E6C21-96FE-460F-9B92-1C6D00DF784B/d0/37c7d196/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/cb/e28060cc/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Elevators.Infrastructure/Logging/AddCustomLogging.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Infrastructure/Logging/LoggingExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Hosting/Program.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Engine.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Extensions/RegisterExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Class1.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Engine.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Trading/Engine.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Utilities/RepeatableTask.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Interfaces/ITradeService.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Hosting/Controllers/IndexController.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Models/CurrencyPairInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/ExmoCurrencyPairInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/ExmoExchangeInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/ExmoTradeInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/In/CreateBuyOrderModelMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/In/CurrencyPairInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Helpers/CurrencyHelper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Utilities/CurrencyHelper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Elevators.Core.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Hosting/Elevators.Hosting.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Infrastructure/Elevators.Infrastructure.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Elevators.Providers.Exmo.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Elevators.Services.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Extensions/ServicesExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Utilities/DecimalConverter.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoCurrencyPairInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoCurrencyPairInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoExchangeInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Utilities/DateTimeExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoTradeInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoTradeInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoExchangeInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoClient.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Models/Balance.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoUserInfoMapper.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoStockExchange.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Responses/ExmoUserInfoResponse.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoApi.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Extensions/ExmoApiExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Interfaces/IStockExchange.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Interfaces/ICurrencyRatesStore.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Interfaces/ICurrencyRatesService.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/CurrencyRates/CurrencyRatesService.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Trading/ServiceRegisterExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Hosting/Startup.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/CurrencyRates/ServiceRegisterExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Constants/ConversionType.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Models/ConversionInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VsRI2Jc73lMAD3hdjEB12GlkWB" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Elevators.Hosting: IIS Express">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Elevators.Console/bin/Debug/netcoreapp3.0/Elevators.Console.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Elevators.Console/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Elevators.Console/Elevators.Console.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Elevators.Hosting: IIS Express (1)" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Elevators.Hosting/Elevators.Hosting.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Elevators.Hosting: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Elevators.Hosting/Elevators.Hosting.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Elevators.Hosting" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Elevators.Hosting: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Elevators.Hosting: IIS Express (1)" />
+      <item itemvalue=".NET Project.Default" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.Elevators.Hosting: IIS Express" />
+        <item itemvalue=".NET Launch Settings Profile.Elevators.Hosting: IIS Express (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a067b85e-f3e4-4e4a-864c-cd4bff2afbb2" name="Default Changelist" comment="" />
+      <created>1578039733431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578039733431</updated>
+      <workItem from="1578039736749" duration="13064000" />
+      <workItem from="1578335688338" duration="11499000" />
+      <workItem from="1578761539865" duration="6600000" />
+      <workItem from="1579021264538" duration="988000" />
+      <workItem from="1579022312680" duration="2037000" />
+      <workItem from="1579356231821" duration="20090000" />
+      <workItem from="1579439649092" duration="5628000" />
+      <workItem from="1579455509139" duration="6110000" />
+      <workItem from="1580037209234" duration="1449000" />
+      <workItem from="1581272198428" duration="753000" />
+      <workItem from="1581527922787" duration="13598000" />
+      <workItem from="1581764164260" duration="2992000" />
+      <workItem from="1581843546606" duration="720000" />
+      <workItem from="1581850528518" duration="6191000" />
+      <workItem from="1582132669416" duration="2254000" />
+      <workItem from="1582475755852" duration="102000" />
+      <workItem from="1583081970098" duration="672000" />
+      <workItem from="1583169214937" duration="5989000" />
+      <workItem from="1583518006315" duration="2973000" />
+      <workItem from="1583527253331" duration="1816000" />
+      <workItem from="1584877874585" duration="1402000" />
+      <workItem from="1584879305752" duration="606000" />
+      <workItem from="1584883111480" duration="13875000" />
+      <workItem from="1585379812356" duration="28276000" />
+      <workItem from="1585498691312" duration="5943000" />
+      <workItem from="1585591221482" duration="11402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" initialLine="46">
+            <startOffsets>
+              <option value="1456" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1500" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

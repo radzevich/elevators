@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Elevators\\Elevators\\Elevators.Console\\Elevators.Console.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Elevators\\Elevators\\Elevators.Console\\Elevators.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Elevators\\Elevators\\Elevators.Console\\Elevators.Console.csproj",
+        "projectName": "Elevators.Console",
+        "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Console\\Elevators.Console.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj": {
+                "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj"
+              },
+              "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj",
+        "projectName": "Elevators.Core",
+        "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj",
+        "projectName": "Elevators.Infrastructure",
+        "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\Elevators.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj": {
+                "projectPath": "D:\\Projects\\Elevators\\Elevators\\Elevators.Core\\Elevators.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[12.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

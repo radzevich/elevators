@@ -1,0 +1,9 @@
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.deps.json
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.csprojAssemblyReference.cache
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.AssemblyInfo.cs
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
+D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb

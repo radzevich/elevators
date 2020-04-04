@@ -15,7 +15,8 @@ namespace Elevators.Services.Trading
     {
         private const int DelayStartTradeMs = 0;
         private const int DelayRepeatTradeMs = 60 * 60 * 1000;
-
+        private const decimal Fee = 0.002m;
+        
         private readonly IStockExchange _stockExchange;
         private readonly ICurrencyRatesStore _currencyRatesStore;
         private readonly ILogger<ITradeService> _logger;
@@ -45,7 +46,8 @@ namespace Elevators.Services.Trading
 
             var balance = await _stockExchange.GetBalance();
 
-            var baseCurrency = GetBaseCurrency(balance);
+//            var baseCurrency = GetBaseCurrency(balance);
+            var baseCurrency = "BTC";
             if (baseCurrency == null)
             {
                 _logger.LogWarning("No money!");
@@ -55,41 +57,54 @@ namespace Elevators.Services.Trading
             _logger.LogInformation($"Balance is {balance.Total[baseCurrency]} {baseCurrency}");
 
             var currencyPairs = (await _stockExchange.GetCurrencyPairs()).ToArray();
-            var usdPairs = FilterUsdPairs(currencyPairs);
 
-            var availablePairs = FilterPairsByCurrency(currencyPairs, baseCurrency);
-            _logger.LogInformation("Available pairs are: {@Pairs}", availablePairs);
+            var availablePairs = currencyPairs
+                .Where(cp => cp.BaseCurrency == baseCurrency || cp.TargetCurrency == baseCurrency)
+                .Select(cp => cp.BaseCurrency == baseCurrency ? cp.TargetCurrency : cp.BaseCurrency)
+                .ToHashSet();
 
-            var actualRates = (await _stockExchange.GetActualRatesAsync(usdPairs, DateTime.UtcNow.AddSeconds(-60)))
+            var usdPairs = FilterPairsByCurrency(currencyPairs, "USD").ToArray();
+            _logger.LogInformation("USD pairs are: {@Pairs}", usdPairs);
+
+            var actualToUsdRates = (await _stockExchange.GetActualRatesAsync(usdPairs, DateTime.UtcNow.AddSeconds(-60)))
                 .ToDictionary(
                     x => x.BaseCurrency == "USD" ? x.TargetCurrency : x.BaseCurrency,
-                    x => x.AverageRate);
+                    x => x.BaseCurrency == "USD"
+                        ? x.AverageRate != 0
+                            ? 1 / x.AverageRate
+                            : 0
+                        : x.AverageRate);
 
-            _logger.LogInformation("Current rates: {@Rates}", actualRates);
+//            var actualToBaseRates = (await _stockExchange.GetActualRatesAsync(basePairs, DateTime.UtcNow.AddSeconds(-60)))
+//                .Where(x => x.AverageRate != 0)
+//                .ToDictionary(
+//                    x => x.BaseCurrency == baseCurrency ? x.TargetCurrency : x.BaseCurrency,
+//                    x => x.BaseCurrency == baseCurrency ? 1 / x.AverageRate : x.AverageRate);
 
-            // Fallback
-            actualRates["USD"] = 1;
+            _logger.LogInformation("Current rates: {@Rates}", actualToUsdRates);
 
-            var previousRates = _currencyRatesStore.GetLast();
-            if (previousRates != null)
+            var previousToUsdRates = _currencyRatesStore.GetLast();
+            if (previousToUsdRates != null)
             {
-                var rateGrowingCoefficients = GetListOfRateGrowingCoefficients(actualRates, previousRates);
-                _logger.LogInformation("Rates growing coefficients are: {@Coefficient}", rateGrowingCoefficients);
+                var predictedToUsdRates = actualToUsdRates.ToDictionary(
+                    x => x.Key,
+                    x => CalculatePredictedRate(previousToUsdRates[x.Key], x.Value));
 
-                var conversionTypes = GetConversionTypes(baseCurrency, actualRates.Keys, currencyPairs);
+                var (recommendedCurrency, conversionType) = GetRecommendedCurrency(availablePairs, actualToUsdRates, predictedToUsdRates, baseCurrency);
+                if (recommendedCurrency == baseCurrency)
+                {
+                    _logger.LogCritical("NO CONVERSION");
+                }
+                else
+                {
+                    _logger.LogCritical($"CONVERT FROM '{baseCurrency}' TO {recommendedCurrency}");
+                }
+                
+                _logger.LogInformation("Recommended conversion: {From} - {To}", baseCurrency, recommendedCurrency);
             }
+            
 
-            _currencyRatesStore.Store(actualRates);
-
-//            var actualRates = await _currenciesRatesProvider.GetActualCurrenciesAsync();
-//            var previousRates = _currencyRatesStore.GetLast();
-//            
-//            if (previousRates == null || previousRates.Count == 0)
-//            {
-//                // Doesn't make sense to trade without any historical info
-////                await _currencyRatesStore.Store(actualRates);
-//                return;
-//            }
+            _currencyRatesStore.Store(actualToUsdRates);
         }
 
         private static string GetBaseCurrency(Balance balance)
@@ -114,16 +129,6 @@ namespace Elevators.Services.Trading
         private static IEnumerable<CurrencyPair> FilterPairsByCurrency(IEnumerable<CurrencyPair> pairs, string currency)
         {
             return pairs.Where(p => p.BaseCurrency == currency || p.TargetCurrency == currency);
-        }
-
-        /// <summary>
-        /// Returns list of currency pairs which we can buy by USD
-        /// </summary>
-        /// <param name="pairs"></param>
-        /// <returns></returns>
-        private static IEnumerable<CurrencyPair> FilterUsdPairs(IEnumerable<CurrencyPair> pairs)
-        {
-            return FilterPairsByCurrency(pairs, "USD");
         }
 
         private static Dictionary<string, decimal> GetListOfRateGrowingCoefficients(
@@ -165,70 +170,81 @@ namespace Elevators.Services.Trading
                 return ConversionType.OneStepConversion;
             }
             
-            return ConversionType.TwoStepConversion;
+            return ConversionType.ThroughUsdConversion;
         }
 
-        private static decimal CalculateResultValue(
-            string fromCurrency,
-            string toCurrency,
-            Dictionary<string, ConversionType> conversionTypes,
-            Dictionary<string, decimal> toUsdCoefficients)
-        {
-            var conversionType = conversionTypes[fromCurrency];
-            var coefficient = toUsdCoefficients[fromCurrency];
-            
-            switch (conversionType)
-            {
-                case ConversionType.None:
-                    return coefficient;
-                case ConversionType.OneStepConversion:
-                    return coefficient * 0.098m;
-                case ConversionType.TwoStepConversion:
-                    return CalculateResultValue(fromCurrency, "USD")
-            }
-        }
-
-        private IEnumerable<CurrencyPair> FilterAvailablePairs(IEnumerable<CurrencyPair> currencyPairInfo, string baseCurrency)
-        {
-            return currencyPairInfo
-                .Where(cp => cp.BaseCurrency == baseCurrency || cp.TargetCurrency == baseCurrency);
-        }
-
-        private decimal CalculatePredictedValueAfterExchange(
-            ExchangeInfo previousRate,
-            ExchangeInfo actualRate,
-            decimal amount)
-        {
-            return 0;
-        }
-
-        private static decimal CalculateUpExchangeCoefficient(
-            ExchangeInfo previousRate,
-            ExchangeInfo actualRate)
-        {
-            return CalculateUpExchangeCoefficient(
-                previousRate.BuyPrice,
-                actualRate.BuyPrice);
-        }
-
-        private static decimal CalculateUpExchangeCoefficient(
+        private static decimal CalculatePredictedRate(
             decimal previousRate,
             decimal actualRate)
         {
             // y3 = 2 * y2 - y1
+            if (previousRate == 0 || actualRate == 0)
+            {
+                return 0;
+            }
             return 2 * actualRate - previousRate;
         }
 
-        private decimal CalculatePredictedRate(
-            decimal previousRate,
-            decimal actualRate,
-            decimal amount)
+        private (string Currency, ConversionType conversionType) GetRecommendedCurrency(
+            ICollection<string> availablePairs,
+            IReadOnlyDictionary<string, decimal> actualToUsdRates,
+            IReadOnlyDictionary<string, decimal> predictedToUsdRates,
+            string baseCurrency)
         {
-            // y3 = 2 * y2 - y1
-            var coefficient = 2 * actualRate - previousRate;
-            var result = amount * coefficient;
+            var recommendedCurrency = (Currency: "USD", Coefficient: 1m, ConversionType: ConversionType.ToUsd);
+            
+            Dictionary<string, decimal> coefficients = new Dictionary<string, decimal>();
 
-            return result;
+            foreach (var (currency, coefficient, conversionType) in GetGrowingCoefficients(
+                availablePairs,
+                actualToUsdRates,
+                predictedToUsdRates,
+                baseCurrency))
+            {
+                coefficients[currency] = coefficient;
+                if (coefficient > recommendedCurrency.Coefficient)
+                {
+                    recommendedCurrency = (currency, coefficient, conversionType);
+                }
+            }
+            
+            _logger.LogInformation("Coefficients are: {@Coefficients}", coefficients);
+
+            return (recommendedCurrency.Currency, recommendedCurrency.ConversionType);
+        }
+
+        private static IEnumerable<(string Currency, decimal Coefficient, ConversionType ConversionType)> GetGrowingCoefficients(
+            ICollection<string> availablePairs,
+            IReadOnlyDictionary<string, decimal> actualToUsdRates,
+            IReadOnlyDictionary<string, decimal> predictedToUsdRates,
+            string baseCurrency)
+        {
+            foreach (var (currency, predictedToUsdRate) in predictedToUsdRates)
+            {
+                ConversionType conversionType;
+
+                var actualToUsdRate = actualToUsdRates[currency];
+                var coefficient = actualToUsdRate != 0
+                    ? predictedToUsdRate / actualToUsdRate
+                    : 0;
+
+                if (currency == baseCurrency)
+                {
+                    conversionType = ConversionType.None;
+                }
+                else if (availablePairs.Contains(currency))
+                {
+                    coefficient *= (1 - Fee);
+                    conversionType = ConversionType.OneStepConversion;
+                }
+                else
+                {
+                    coefficient *= (1 - Fee) * (1 - Fee);
+                    conversionType = ConversionType.ThroughUsdConversion;
+                }
+
+                yield return (currency, coefficient, conversionType);
+            }
         }
 
         public void Dispose()

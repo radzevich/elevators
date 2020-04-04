@@ -3,7 +3,8 @@
     public enum ConversionType
     {
         None,
+        ToUsd,
         OneStepConversion,
-        TwoStepConversion
+        ThroughUsdConversion
     }
 }

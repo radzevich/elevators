@@ -1,7 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a067b85e-f3e4-4e4a-864c-cd4bff2afbb2" name="Default Changelist" comment="" />
+    <list default="true" id="a067b85e-f3e4-4e4a-864c-cd4bff2afbb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyStockExchange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elevators.Providers.Currency/Extensions/CurrencyPairExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elevators.Providers.Currency/Models/Out/CurrencyKlinesInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elevators.Services/TrendDetector/TrendDetectingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elevators/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elevators/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elevators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elevators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Debug/netcoreapp3.1/Elevators.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/Elevators.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Hosting.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/bin/Debug/netcoreapp3.1/Elevators.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Debug/netcoreapp3.1/Elevators.Hosting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/Elevators.Hosting.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Hosting/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Hosting/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/Elevators.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/bin/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Debug/netcoreapp3.1/Elevators.Providers.Exmo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/Elevators.Providers.Exmo.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Providers.Exmo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Elevators.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Debug/netcoreapp3.1/Elevators.Services.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/Elevators.Services.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.Services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevators.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Elevators.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +108,30 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Elevators.Services/Trading/ServiceRegisterExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Responses/ExmoCreateBuyOrderResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/a1/a7580c82/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/ITradeService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Hosting/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Currency/Models/Out/CurrencyKlinesInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Hosting/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Currency/Extensions/CurrencyPairExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Services/TrendDetector/TrendDetectingService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoApi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoExchangeInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/ExmoClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/CurrencyRateInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/Out/ExmoTradeInfoMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/6c/e5747937/Environment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Extensions/ExmoApiExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Core/Interfaces/ICurrencyRatesProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/a4/326d538c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoTradeInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +176,7 @@
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Models/ExmoCurrencyPairInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A8A15F63-7FCB-4C7A-9C6E-A7ECBB09FC46/97/d9265056/Parallel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Providers.Exmo/Responses/ExmoUserInfoResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyStockExchange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAE80100-3870-49CA-A23B-BC47EEC50282/b4/513c0c17/Timer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/a7/cccb253b/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elevators.Core/Models/DealFee.cs" root0="FORCE_HIGHLIGHTING" />
@@ -91,18 +187,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Elevators.Infrastructure/Logging/AddCustomLogging.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Infrastructure/Logging/LoggingExtensions.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Hosting/Program.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Core/Engine.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Core/Extensions/RegisterExtensions.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Services/Class1.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Services/Engine.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Services/Trading/Engine.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Services/Utilities/RepeatableTask.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Core/Interfaces/ITradeService.cs" />
         <option value="$PROJECT_DIR$/Elevators.Hosting/Controllers/IndexController.cs" />
-        <option value="$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" />
         <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Models/CurrencyPairInfo.cs" />
         <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/ExmoCurrencyPairInfoMapper.cs" />
         <option value="$PROJECT_DIR$/Elevators.Providers.Exmo/Mappers/ExmoExchangeInfoMapper.cs" />
@@ -142,10 +227,22 @@
         <option value="$PROJECT_DIR$/Elevators.Core/Constants/ConversionType.cs" />
         <option value="$PROJECT_DIR$/Elevators.Core/Models/ConversionInfo.cs" />
         <option value="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Class1.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Elevators.Providers.Currency.csproj" />
+        <option value="$PROJECT_DIR$/Elevators.Services/TrendDetector/TrendDetectingService.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyRequestFactory.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Core/Models/CurrencyPair.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Extensions/CurrencyRateInfoExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Extensions/CurrencyPairExtensions.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyApi.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/CurrencyStockExchange.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Models/Out/CurrencyTickleInfo.cs" />
+        <option value="$PROJECT_DIR$/Elevators.Providers.Currency/Models/Out/CurrencyKlinesInfo.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1VsRI2Jc73lMAD3hdjEB12GlkWB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -262,11 +359,26 @@
       <workItem from="1585379812356" duration="28276000" />
       <workItem from="1585498691312" duration="5943000" />
       <workItem from="1585591221482" duration="11402000" />
+      <workItem from="1586636005670" duration="5687000" />
+      <workItem from="1587233901302" duration="7116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
@@ -278,19 +390,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs</url>
-          <line>47</line>
-          <properties documentPath="$PROJECT_DIR$/Elevators.Services/Trading/TradeService.cs" initialLine="46">
-            <startOffsets>
-              <option value="1456" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1500" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

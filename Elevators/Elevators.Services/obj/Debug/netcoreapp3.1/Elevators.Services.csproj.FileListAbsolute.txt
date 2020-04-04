@@ -2,9 +2,7 @@ D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Eleva
 D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Services.dll
 D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Services.pdb
 D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Core.dll
-D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Core.pdb
-D:\Projects\Elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.xml
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.csprojAssemblyReference.cache
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.csproj.CoreCompileInputs.cache
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.AssemblyInfoInputs.cache
@@ -12,3 +10,14 @@ D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Eleva
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.csproj.CopyComplete
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.dll
 D:\Projects\Elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.pdb
+C:\Projects\elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Services.deps.json
+C:\Projects\elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Services.dll
+C:\Projects\elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Services.pdb
+C:\Projects\elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Core.dll
+C:\Projects\elevators\Elevators\Elevators.Services\bin\Debug\netcoreapp3.1\Elevators.Core.pdb
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.csprojAssemblyReference.cache
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.AssemblyInfoInputs.cache
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.AssemblyInfo.cs
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.csproj.CopyComplete
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.dll
+C:\Projects\elevators\Elevators\Elevators.Services\obj\Debug\netcoreapp3.1\Elevators.Services.pdb

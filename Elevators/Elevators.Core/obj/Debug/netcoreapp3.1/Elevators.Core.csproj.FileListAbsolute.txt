@@ -14,3 +14,11 @@ D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators
 D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.csproj.CopyComplete
 D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.dll
 D:\Projects\Elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.pdb
+C:\Projects\elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.1\Elevators.Core.deps.json
+C:\Projects\elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.1\Elevators.Core.dll
+C:\Projects\elevators\Elevators\Elevators.Core\bin\Debug\netcoreapp3.1\Elevators.Core.pdb
+C:\Projects\elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.csprojAssemblyReference.cache
+C:\Projects\elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.AssemblyInfoInputs.cache
+C:\Projects\elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.AssemblyInfo.cs
+C:\Projects\elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.dll
+C:\Projects\elevators\Elevators\Elevators.Core\obj\Debug\netcoreapp3.1\Elevators.Core.pdb

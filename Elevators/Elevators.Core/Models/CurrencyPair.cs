@@ -17,5 +17,9 @@
         public decimal MinAmount { get; set; }
 
         public decimal MaxAmount { get; set; }
+
+        public string Symbol => $"{BaseCurrency}{Delimiter}{TargetCurrency}";
+        
+        protected virtual string Delimiter { get; set; }
     }
 }

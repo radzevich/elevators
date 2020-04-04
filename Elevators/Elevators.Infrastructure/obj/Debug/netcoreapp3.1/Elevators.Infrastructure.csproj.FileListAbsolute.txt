@@ -7,3 +7,11 @@ D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1
 D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.AssemblyInfo.cs
 D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
 D:\Projects\Elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.deps.json
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.AssemblyInfo.cs
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
+C:\Projects\elevators\Elevators\Elevators.Infrastructure\obj\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb

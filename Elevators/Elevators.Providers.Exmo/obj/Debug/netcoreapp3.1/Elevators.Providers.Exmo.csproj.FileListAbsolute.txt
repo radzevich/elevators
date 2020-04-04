@@ -12,3 +12,16 @@ D:\Projects\Elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1
 D:\Projects\Elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.csproj.CopyComplete
 D:\Projects\Elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.dll
 D:\Projects\Elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.pdb
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Providers.Exmo.deps.json
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Providers.Exmo.dll
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Providers.Exmo.pdb
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Core.dll
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.dll
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Core.pdb
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\bin\Debug\netcoreapp3.1\Elevators.Infrastructure.pdb
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.csprojAssemblyReference.cache
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.AssemblyInfoInputs.cache
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.AssemblyInfo.cs
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.csproj.CopyComplete
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.dll
+C:\Projects\elevators\Elevators\Elevators.Providers.Exmo\obj\Debug\netcoreapp3.1\Elevators.Providers.Exmo.pdb

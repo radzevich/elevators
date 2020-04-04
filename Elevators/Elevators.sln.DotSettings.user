@@ -3,5 +3,6 @@
   &lt;Assembly Path="C:\Users\User\.nuget\packages\csvhelper\12.2.3\lib\netstandard2.0\CsvHelper.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Exmo/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Klines/@EntryIndexedValue">True</s:Boolean>
 	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Usdt/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
